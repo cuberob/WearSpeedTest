@@ -1,6 +1,22 @@
 <resources>
     <string name="app_name">WearSpeedTest</string>
 
-    <string name="hello_world">Hello world!</string>
+    <!-- Action Bar -->
     <string name="action_settings">Settings</string>
+
+
+    <!-- Arrays -->
+    <string-array name="test_size_names">
+        <item>0.01MB</item>
+        <item>0.05MB</item>
+        <item>0.1MB</item>
+        <item>0.2MB</item>
+        <item>0.3MB</item>
+        <item>0.4MB</item>
+        <item>0.5MB</item>
+        <!--<item>1.0MB</item>
+        <item>2.5MB</item>
+        <item>5.0MB</item>
+        <item>10.0MB</item>-->
+    </string-array>
 </resources>

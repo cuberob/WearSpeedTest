@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="test_sizes">
+        <item>10000</item>
+        <item>50000</item>
+        <item>100000</item>
+        <item>200000</item>
+        <item>300000</item>
+        <item>400000</item>
+        <item>500000</item>
+        <!--<item>1000000</item>
+        <item>2500000</item>
+        <item>5000000</item>
+        <item>10000000</item>-->
+    </integer-array>
+
+</resources>
