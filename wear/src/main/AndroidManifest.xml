@@ -1,0 +1,20 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cuberob.wearspeedtest">
+    <uses-feature android:name="android.hardware.type.watch" />
+    <application android:allowBackup="true" android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher" android:theme="@android:style/Theme.DeviceDefault">
+
+        <!-- SERVICES -->
+
+        <service android:name=".DataLayer">
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
+            </intent-filter>
+        </service>
+
+        <!-- META DATA -->
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+
+    </application>
+
+</manifest>
